@@ -46,7 +46,7 @@ putting that folder where your agent looks for skills. Pick the method that fits
 ### 1) One-command install (any agent that supports the `skills` CLI)
 
 ```bash
-npx skills add <your-github>/skillforge --agent claude-code
+npx skills add Skill-center/skillforge --agent claude-code
 # other agents: --agent cursor, --agent codex, --agent gemini, ...
 ```
 
@@ -57,7 +57,7 @@ Personal scope (every project on this machine):
 ```bash
 # macOS / Linux
 mkdir -p ~/.claude/skills
-git clone https://github.com/<your-github>/skillforge ~/.claude/skills/skillforge
+git clone https://github.com/Skill-center/skillforge ~/.claude/skills/skillforge
 # …or copy the folder instead:
 # cp -r skillforge ~/.claude/skills/
 ```
@@ -65,7 +65,7 @@ git clone https://github.com/<your-github>/skillforge ~/.claude/skills/skillforg
 ```powershell
 # Windows (PowerShell)
 mkdir -p $HOME\.claude\skills
-git clone https://github.com/<your-github>/skillforge $HOME\.claude\skills\skillforge
+git clone https://github.com/Skill-center/skillforge $HOME\.claude\skills\skillforge
 ```
 
 Project scope (only this repo uses it): put the folder at
